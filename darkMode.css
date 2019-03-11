@@ -1,17 +1,44 @@
-/* 
-const bgColor = "#121212";
-const bgAccent = "#1a1a1a"
-const fontColor = "#b3b3b3"
-const headerColor = "#ffffff" 
-*/
+:root {
+  --dark-bg-color: #121212;
+  --dark-bg-accent: #1a1a1a;
+  --dark-font-color: #b3b3b3;
+  --dark-header-color: #fff;
+} 
+
+
 
 .section-lessons__item__link:hover, #student-solutions a:hover {
-  color: #ffffff !important;
+  color: var(--dark-font-color) !important;
   text-decoration: underline !important;
 }
 
 .button--transparent {
-  background-color: #1a1a1a;
-  color: #ffffff;
-  border: solid 3px #b3b3b3
+  background-color: var(--dark-bg-accent) !important;
+  color: var(--dark-header-color) !important;
+  border: solid 3px var(--dark-font-color) !important;
+}
+
+body, .navbar, .card-main, #footer {
+  background-color: var(--dark-bg-color) !important;
+}
+
+.lesson-functions, .course-card, .gradient, .bg-whitesmoke, .lesson-content__panel {
+  background-image: none !important;
+  background-color: var(--dark-bg-accent) !important;
+}
+
+.curriculum-details-tile {
+  background-color: var(--dark-bg-color) !important;
+}
+
+h1, h2.bold, h3, h4, h5, h6, .internal-link, .nav-link, .lesson-navigation__link, .course-card-header__title, .course-description__heading, .viking-advert__brand-name, .viking-advert__pitch, .footer-link {
+  color: var(--dark-header-color) !important;
+}
+
+.lesson-navigation__circle {
+  background-color: var(--dark-header-color)
+}
+
+p, ol, li, .far {
+  color: var(--dark-font-color) !important;
 }
