@@ -11,5 +11,5 @@
 ## Firefox Installation
 1. Clone Repo
 2. Go to `about:debugging` in your Firefox browser
-3. Choose "Load Temporary Add-on" and select the root directory of this repo
+3. Choose "Load Temporary Add-on" and select the `manifest.json` file in this cloned repo
 4. Profit.
