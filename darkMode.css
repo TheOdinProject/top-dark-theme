@@ -1,0 +1,4 @@
+.section-lessons__item__link:hover, #student-solutions a:hover {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
