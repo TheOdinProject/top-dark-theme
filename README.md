@@ -1,6 +1,6 @@
 # The Odin Project Dark Theme
 
-## Installation
+## Chrome Installation
 
 1. Clone Repo
 2. Go to `chrome://extensions` in your chrome browser
@@ -8,3 +8,8 @@
 4. Choose "Load Unpacked" and choose the root directory of this repo
 5. Profit.
 
+## Firefox Installation
+1. Clone Repo
+2. Go to `about:debugging` in your Firefox browser
+3. Choose "Load Temporary Add-on" and select the root directory of this repo
+4. Profit.
