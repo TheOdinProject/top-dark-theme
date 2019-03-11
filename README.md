@@ -13,3 +13,11 @@
 2. Go to `about:debugging` in your Firefox browser
 3. Choose "Load Temporary Add-on" and select the `manifest.json` file in this cloned repo
 4. Profit.
+
+### Screenshots:
+
+![Curriculum Page](https://imgur.com/78LdhfE.png)
+
+![Course Page](https://imgur.com/9PGK0OV.png)
+
+![Assignment](https://imgur.com/mnmvn7e.png)
