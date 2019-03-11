@@ -1,4 +1,17 @@
+/* 
+const bgColor = "#121212";
+const bgAccent = "#1a1a1a"
+const fontColor = "#b3b3b3"
+const headerColor = "#ffffff" 
+*/
+
 .section-lessons__item__link:hover, #student-solutions a:hover {
   color: #ffffff !important;
   text-decoration: underline !important;
+}
+
+.button--transparent {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: solid 3px #b3b3b3
 }

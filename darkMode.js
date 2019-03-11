@@ -16,7 +16,7 @@ const darkMode = function() {
   });
 
   // Set Header Color
-  document.querySelectorAll("h1, h3, h4, h5, h6, .internal-link, .nav-link, .lesson-navigation__link, .course-card-header__title, [href]:not([class]):hover, .viking-advert__brand-name, .viking-advert__pitch, .footer-link").forEach( (el) => {
+  document.querySelectorAll("h1, h3, h4, h5, h6, .internal-link, .nav-link, .lesson-navigation__link, .course-card-header__title, .course-description__heading, .viking-advert__brand-name, .viking-advert__pitch, .footer-link").forEach( (el) => {
     el.style.color = headerColor 
   })
   document.querySelectorAll(".lesson-navigation__circle").forEach( (el) => {
@@ -24,7 +24,7 @@ const darkMode = function() {
   })
 
   // Set Font Color
-  document.querySelectorAll("p, ol, li").forEach( (el) => {
+  document.querySelectorAll("p, ol, li, .far").forEach( (el) => {
     el.style.color = fontColor
   })
 }
