@@ -1,6 +1,8 @@
 # The Odin Project Dark Theme
 
-## Chrome Installation
+### Available in the [Chrome Web Store](https://chrome.google.com/webstore/detail/the-odin-project-dark-the/omiecnmmajomefpodcdjkebeonieonef?authuser=1) and [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/the-odin-project-dark-theme/) store.
+
+## Manual Chrome Installation
 
 1. Clone Repo
 2. Go to `chrome://extensions` in your chrome browser
@@ -8,7 +10,7 @@
 4. Choose "Load Unpacked" and choose the root directory of this repo
 5. Profit.
 
-## Firefox Installation
+## Manual Firefox Installation
 1. Clone Repo
 2. Go to `about:debugging` in your Firefox browser
 3. Choose "Load Temporary Add-on" and select the `manifest.json` file in this cloned repo
