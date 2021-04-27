@@ -7,7 +7,7 @@
 
 
 
-.section-lessons__item__link:hover, #student-solutions a:hover {
+.section-lessons__item__link:hover, #student-solutions a:hover a:visited{
   color: var(--dark-font-color) !important;
   text-decoration: underline !important;
 }
