@@ -31,7 +31,7 @@ body, .navbar, .card-main, #footer {
   background-color: var(--dark-bg-color) !important;
 }
 
-h1, h2.bold, h3, h4, h5, h6, a:hover, .internal-link, .nav-link, .lesson-navigation__link, .course-card-header__title, .course-description__heading, .viking-advert__brand-name, .viking-advert__pitch, .footer-link {
+h1, h2, h2.bold, h3, h4, h5, h6, .internal-link, .nav-link, .lesson-navigation__link, .course-card-header__title, .course-description__heading, .viking-advert__brand-name, .viking-advert__pitch, .footer-link {
   color: var(--dark-header-color) !important;
 }
 
@@ -39,7 +39,7 @@ h1, h2.bold, h3, h4, h5, h6, a:hover, .internal-link, .nav-link, .lesson-navigat
   background-color: var(--dark-header-color)
 }
 
-p, ol, li, .far {
+p, ol, li, a:hover, .far {
   color: var(--dark-font-color) !important;
 }
 
