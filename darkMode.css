@@ -46,3 +46,13 @@ p, ol, li, a:hover, .far {
 progress-circle__image, progress-circle__inner {
   background-color: var(--dark-bg-accent) !important;
 }
+
+.react-modal__body, .react-modal__body h1 {
+  background-color: var(--dark-bg-color) !important;
+  color: var(--dark-font-color) !important;
+}
+
+.react-modal__body .form__element {
+  background-color: var(--dark-bg-accent) !important;
+  color: var(--dark-font-color) !important;
+}
