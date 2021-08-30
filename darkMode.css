@@ -5,8 +5,6 @@
   --dark-header-color: #fff;
 } 
 
-
-
 .section-lessons__item__link:hover, #student-solutions a:hover a:visited{
   color: var(--dark-font-color) !important;
   text-decoration: underline !important;
@@ -39,7 +37,7 @@ h1, h2, h2.bold, h3, h4, h5, h6, .internal-link, .nav-link, .lesson-navigation__
   background-color: var(--dark-header-color)
 }
 
-p, ol, li, a:hover, .far {
+p, ol, li, a:hover, .far, code {
   color: var(--dark-font-color) !important;
 }
 
