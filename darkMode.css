@@ -3,9 +3,8 @@
   --dark-bg-accent: #1a1a1a;
   --dark-font-color: #b3b3b3;
   --dark-header-color: #fff;
+  --dark-pseudocode-color: #e83e8c;
 } 
-
-
 
 .section-lessons__item__link:hover, #student-solutions a:hover a:visited{
   color: var(--dark-font-color) !important;
@@ -41,6 +40,10 @@ h1, h2, h2.bold, h3, h4, h5, h6, .internal-link, .nav-link, .lesson-navigation__
 
 p, ol, li, a:hover, .far {
   color: var(--dark-font-color) !important;
+}
+
+pre:not(.line-numbers) code {
+  color: var(--dark-pseudocode-color) !important
 }
 
 progress-circle__image, progress-circle__inner {
