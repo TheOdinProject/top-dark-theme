@@ -55,7 +55,7 @@ progress-circle__image, progress-circle__inner {
   color: var(--dark-font-color) !important;
 }
 
-.react-modal__body .form__element {
+.react-modal__body .form__element .form__element::placeholder {
   background-color: var(--dark-bg-accent) !important;
   color: var(--dark-font-color) !important;
 }
