@@ -38,7 +38,7 @@ h1, h2, h2.bold, h3, h4, h5, h6, .internal-link, .nav-link, .lesson-navigation__
   background-color: var(--dark-header-color)
 }
 
-p, ol, li, a:hover, .far, .form__element::placeholder {
+p, ol, li, a:hover, .far, .form__element::placeholder, .form__link-section__item {
   color: var(--dark-font-color) !important;
 }
 
