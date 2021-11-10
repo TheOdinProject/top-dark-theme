@@ -21,7 +21,7 @@ body, .navbar, .card-main, .card-block, .card-header, #footer {
   background-color: var(--dark-bg-color) !important;
 }
 
-.lesson-functions, .course-card, .gradient, .bg-whitesmoke, .lesson-content__panel {
+.lesson-functions, .course-card, .gradient, .bg-whitesmoke, .lesson-content__panel, .odin-dropdown__menu {
   background-image: none !important;
   background-color: var(--dark-bg-accent) !important;
 }
@@ -30,7 +30,7 @@ body, .navbar, .card-main, .card-block, .card-header, #footer {
   background-color: var(--dark-bg-color) !important;
 }
 
-h1, h2, h2.bold, h3, h4, h5, h6, .internal-link, .nav-link, .lesson-navigation__link, .course-card-header__title, .course-description__heading, .viking-advert__brand-name, .viking-advert__pitch, .footer-link {
+h1, h2, h2.bold, h3, h4, h5, h6, .internal-link, .nav-link, .lesson-navigation__link, .course-card-header__title, .course-description__heading, .viking-advert__brand-name, .viking-advert__pitch, .footer-link, .active {
   color: var(--dark-header-color) !important;
 }
 
