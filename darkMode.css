@@ -17,7 +17,7 @@
   border: solid 3px var(--dark-font-color) !important;
 }
 
-body, .navbar, .card-main, #footer {
+body, .navbar, .card-main, .card-block, .card-header, #footer {
   background-color: var(--dark-bg-color) !important;
 }
 
