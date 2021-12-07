@@ -4,9 +4,10 @@
   --dark-font-color: #b3b3b3;
   --dark-header-color: #fff;
   --dark-pseudocode-color: #e83e8c;
-} 
+}
 
-.section-lessons__item__link:hover, #student-solutions a:hover a:visited{
+.section-lessons__item__link:hover,
+#student-solutions a:hover a:visited {
   color: var(--dark-font-color) !important;
   text-decoration: underline !important;
 }
@@ -17,11 +18,22 @@
   border: solid 3px var(--dark-font-color) !important;
 }
 
-body, .navbar, .card-main, .card-block, .card-header, #footer {
+body,
+.navbar,
+.card-main,
+.card-block,
+.card-header,
+#footer,
+.benefits {
   background-color: var(--dark-bg-color) !important;
 }
 
-.lesson-functions, .course-card, .gradient, .bg-whitesmoke, .lesson-content__panel, .odin-dropdown__menu {
+.lesson-functions,
+.course-card,
+.gradient,
+.bg-whitesmoke,
+.lesson-content__panel,
+.odin-dropdown__menu {
   background-image: none !important;
   background-color: var(--dark-bg-accent) !important;
 }
@@ -30,27 +42,50 @@ body, .navbar, .card-main, .card-block, .card-header, #footer {
   background-color: var(--dark-bg-color) !important;
 }
 
-h1, h2, h2.bold, h3, h4, h5, h6, .internal-link, .nav-link, .lesson-navigation__link, .course-card-header__title, .course-description__heading, .viking-advert__brand-name, .viking-advert__pitch, .footer-link, .active {
+h1,
+h2,
+h2.bold,
+h3,
+h4,
+h5,
+h6,
+.internal-link,
+.nav-link,
+.lesson-navigation__link,
+.course-card-header__title,
+.course-description__heading,
+.viking-advert__brand-name,
+.viking-advert__pitch,
+.footer-link,
+.active {
   color: var(--dark-header-color) !important;
 }
 
 .lesson-navigation__circle {
-  background-color: var(--dark-header-color)
+  background-color: var(--dark-header-color);
 }
 
-p, ol, li, a:hover, .far, .form__element::placeholder, .form__link-section__item {
+p,
+ol,
+li,
+a:hover,
+.far,
+.form__element::placeholder,
+.form__link-section__item {
   color: var(--dark-font-color) !important;
 }
 
 pre:not(.line-numbers) code {
-  color: var(--dark-pseudocode-color) !important
+  color: var(--dark-pseudocode-color) !important;
 }
 
-progress-circle__image, progress-circle__inner {
+progress-circle__image,
+progress-circle__inner {
   background-color: var(--dark-bg-accent) !important;
 }
 
-.react-modal__body, .react-modal__body h1 {
+.react-modal__body,
+.react-modal__body h1 {
   background-color: var(--dark-bg-color) !important;
   color: var(--dark-font-color) !important;
 }
