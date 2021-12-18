@@ -17,11 +17,11 @@
   border: solid 3px var(--dark-font-color) !important;
 }
 
-body, .navbar, .card-main, .card-block, .card-header, #footer {
+body, .navbar, .card-main, .card-block, .card-header, #footer, .modal {
   background-color: var(--dark-bg-color) !important;
 }
 
-.lesson-functions, .course-card, .gradient, .bg-whitesmoke, .lesson-content__panel, .odin-dropdown__menu {
+.lesson-functions, .course-card, .gradient, .bg-whitesmoke, .lesson-content__panel, .odin-dropdown__menu, .benefits {
   background-image: none !important;
   background-color: var(--dark-bg-accent) !important;
 }
