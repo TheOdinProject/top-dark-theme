@@ -1,6 +1,6 @@
 {
   "name": "The Odin Project Dark Theme",
-  "version": "2.2.6",
+  "version": "2.2.7",
   "description": "Use dark theme on www.theodinproject.com",
   "permissions": ["activeTab"],
   "content_scripts": [

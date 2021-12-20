@@ -6,7 +6,8 @@
   --dark-pseudocode-color: #e83e8c;
 } 
 
-.section-lessons__item__link:hover, #student-solutions a:hover a:visited{
+.section-lessons__item__link:hover,
+#student-solutions a:hover a:visited {
   color: var(--dark-font-color) !important;
   text-decoration: underline !important;
 }
@@ -17,11 +18,23 @@
   border: solid 3px var(--dark-font-color) !important;
 }
 
-body, .navbar, .card-main, .card-block, .card-header, #footer, .modal {
+body,
+.navbar,
+.card-main,
+.card-block,
+.card-header,
+#footer,
+.modal {
   background-color: var(--dark-bg-color) !important;
 }
 
-.lesson-functions, .course-card, .gradient, .bg-whitesmoke, .lesson-content__panel, .odin-dropdown__menu, .benefits {
+.lesson-functions,
+.course-card,
+.gradient,
+.bg-whitesmoke,
+.lesson-content__panel,
+.odin-dropdown__menu,
+.benefits {
   background-image: none !important;
   background-color: var(--dark-bg-accent) !important;
 }
@@ -30,7 +43,23 @@ body, .navbar, .card-main, .card-block, .card-header, #footer, .modal {
   background-color: var(--dark-bg-color) !important;
 }
 
-h1, h2, h2.bold, h3, h4, h5, h6, .internal-link, .nav-link, .lesson-navigation__link, .course-card-header__title, .course-description__heading, .viking-advert__brand-name, .viking-advert__pitch, .footer-link, .active {
+h1,
+h2,
+h2.bold,
+h3,
+h4,
+h5,
+h6,
+.active,
+.course-card-header__title,
+.course-description__heading,
+.footer-link,
+.internal-link,
+.lesson-navigation__link,
+.nav-link,
+.text-notification,
+.viking-advert__brand-name,
+.viking-advert__pitch {
   color: var(--dark-header-color) !important;
 }
 
@@ -38,7 +67,15 @@ h1, h2, h2.bold, h3, h4, h5, h6, .internal-link, .nav-link, .lesson-navigation__
   background-color: var(--dark-header-color)
 }
 
-p, ol, li, a:hover, .far, .form__element::placeholder, .form__link-section__item {
+p,
+ol,
+li,
+a:hover,
+.accent:hover,
+.far,
+.form__element::placeholder,
+.form__link-section__item,
+.text-notification:hover {
   color: var(--dark-font-color) !important;
 }
 
@@ -46,11 +83,13 @@ pre:not(.line-numbers) code {
   color: var(--dark-pseudocode-color) !important
 }
 
-progress-circle__image, progress-circle__inner {
+progress-circle__image,
+progress-circle__inner {
   background-color: var(--dark-bg-accent) !important;
 }
 
-.react-modal__body, .react-modal__body h1 {
+.react-modal__body,
+.react-modal__body h1 {
   background-color: var(--dark-bg-color) !important;
   color: var(--dark-font-color) !important;
 }
