@@ -50,15 +50,16 @@ h3,
 h4,
 h5,
 h6,
-.internal-link,
-.nav-link,
-.lesson-navigation__link,
+.active,
 .course-card-header__title,
 .course-description__heading,
+.footer-link
+.internal-link,
+.lesson-navigation__link,
+.nav-link,
+.text-notification,
 .viking-advert__brand-name,
-.viking-advert__pitch,
-.footer-link,
-.active {
+.viking-advert__pitch {
   color: var(--dark-header-color) !important;
 }
 
@@ -72,7 +73,8 @@ li,
 a:hover,
 .far,
 .form__element::placeholder,
-.form__link-section__item {
+.form__link-section__item,
+.text-notification:hover {
   color: var(--dark-font-color) !important;
 }
 
