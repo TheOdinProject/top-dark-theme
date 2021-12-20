@@ -21,4 +21,4 @@ fi
 rm ./top-dark-mode-*.zip
 
 # Package extension as .zip
-zip -r top-dark-mode-$VERSION.zip ./* --exclude "*.git*"
+zip -r top-dark-mode-$VERSION.zip ./* --exclude "*.git*" --exclude "build.sh"
