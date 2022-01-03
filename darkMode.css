@@ -53,6 +53,7 @@ h6,
 .active,
 .course-card-header__title,
 .course-description__heading,
+.error-message__sub-title,
 .footer-link,
 .internal-link,
 .lesson-navigation__link,
@@ -64,11 +65,7 @@ h6,
 }
 
 .lesson-navigation__circle {
-  background-color: var(--dark-font-color);
-}
-
-.lesson-navigation__circle:active {
-  background-color: var(--white);
+  background-color: var(--dark-font-color) !important;
 }
 
 p,
@@ -79,7 +76,8 @@ a:hover,
 .far,
 .form__element::placeholder,
 .form__link-section__item,
-.text-notification:hover {
+.text-notification:hover,
+.lesson-button:hover i {
   color: var(--dark-font-color) !important;
 }
 
@@ -104,14 +102,11 @@ progress-circle__inner {
 }
 
 .submissions__button {
-  color: var(--dark-bg-accent);
+  color: var(--dark-bg-accent) !important;
 }
 
-.submissions__button a:hover {
-  color: var(--white);
-}
-
-.fa-map:before,
-.fa-arrow-alt-circle-right:before {
- color: var(--white);
+.submissions__button:hover,
+.fa-map,
+.fa-arrow-alt-circle-right {
+  color: var(--dark-header-color) !important;
 }
