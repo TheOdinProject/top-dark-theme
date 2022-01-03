@@ -84,7 +84,7 @@ a:hover,
 }
 
 pre:not(.line-numbers) code {
-  color: var(--dark-pseudocode-color) !important
+  color: var(--dark-pseudocode-color) !important;
 }
 
 progress-circle__image,
