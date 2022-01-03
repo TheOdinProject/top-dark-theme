@@ -64,7 +64,11 @@ h6,
 }
 
 .lesson-navigation__circle {
-  background-color: var(--dark-header-color)
+  background-color: var(--dark-font-color);
+}
+
+.lesson-navigation__circle:active {
+  background-color: var(--white);
 }
 
 p,
@@ -97,4 +101,17 @@ progress-circle__inner {
 .react-modal__body .form__element {
   background-color: var(--dark-bg-accent) !important;
   color: var(--dark-font-color) !important;
+}
+
+.submissions__button {
+  color: var(--dark-bg-accent);
+}
+
+.submissions__button a:hover {
+  color: var(--white);
+}
+
+.fa-map:before,
+.fa-arrow-alt-circle-right:before {
+ color: var(--white);
 }
